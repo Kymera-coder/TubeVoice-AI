@@ -1,37 +1,104 @@
-🚀 Lançamento: TubeVoice AI  v9.6.0
-A revolução da interação inteligente para Streamers do YouTube.
-O TubeVoice AI Pro é um assistente de desktop robusto e completo, desenvolvido em Python com interface PyQt6, projetado para transformar o chat da sua live em uma experiência imersiva, inteligente e automatizada.
-Ao contrário de bots comuns, o TubeVoice utiliza o motor da Google Gemini (IA de última geração) e a síntese de voz humana da Microsoft Edge-TTS, permitindo que o bot não apenas responda, mas "fale" e interaja com sua audiência em tempo real com vozes extremamente naturais.
+🎙️ TubeVoice AI Pro - v9.6.0
 
-🌟 Recursos Principais
-🧠 Inteligência Artificial de Elite
-Motor Gemini Pro: Integrado com os modelos gemini-2.0-flash e gemini-1.5-flash para respostas instantâneas e contextuais.
-Persona Customizável: Defina o humor e a personalidade do seu bot (Gamer, Sarcástico, Educativo, etc).
-Cooldown Inteligente: Sistema de espera configurável para gerenciar a cota da API e evitar spam de voz.
+![alt text](https://img.shields.io/badge/python-3.12%20%7C%203.14-blue.svg)
 
-🎙️ Interação por Voz de Alta Qualidade
-Narração do Chat: O bot lê o nome do usuário e a mensagem enviada antes de responder.
-Síntese Edge-TTS: Vozes humanas (Antonio e Francisca) com controle de velocidade de fala.
-Fila de Áudio Sincronizada: Lógica avançada para evitar sobreposição de sons (Fala -> Alerta -> Resposta).
+![alt text](https://img.shields.io/badge/license-MIT-green.svg)
 
-🕹️ Engajamento e Fidelidade
-Sistema de Sorteios: Gerencie sorteios ao vivo! O bot coleta participantes pelo chat e anuncia o vencedor por voz.
-Alertas Sonoros (SFX): Configure gatilhos de palavras-chave para tocar arquivos WAV/MP3 personalizados automaticamente.
-Anúncios Automáticos (Timers): Programe mensagens de voz periódicas para pedir likes, divulgar redes sociais ou parceiros.
-Comandos Rápidos: Respostas fixas de voz para comandos comuns como !discord ou !pix, economizando sua cota de IA.
+![alt text](https://img.shields.io/badge/IA-Google%20Gemini-orange.svg)
 
-🛡️ Segurança e Moderação
-Filtro de Termos Restritos: Aba exclusiva para gerenciar palavras proibidas. O bot identifica infratores, ignora a mensagem ofensiva e aplica uma "bronca" descolada via IA.
-⚙️ Diferenciais da Versão Pro
-Premium UI Layout: Interface moderna em Dark Mode com 900px de largura, garantindo acesso rápido a todas as 7 abas sem barras de rolagem.
-Central de Configurações: Aba dedicada (⚙️) para ajustes técnicos de modelo, voz, velocidade e sistema.
-GitHub Update Checker: Botão integrado para verificar novas versões diretamente no seu repositório.
-Persistência de Dados: Suas chaves, comandos, alertas e filtros são salvos automaticamente em JSON.
-Pronto para o OBS: Layout otimizado para monitoramento durante a stream.
+![alt text](https://img.shields.io/badge/platform-Windows-0078d7.svg)
 
-🛠️ Tecnologias Utilizadas
-Linguagem: Python 3.12+ (Compatível com 3.14)
-Interface: PyQt6 (Interface de Desktop Profissional)
-IA: Google GenAI SDK
-YouTube: Pytchat (Scraping de chat em tempo real)
-Áudio: Pygame-CE & Edge-TTS
+
+TubeVoice AI Pro é um assistente de desktop interativo e inteligente, desenvolvido em Python com PyQt6, projetado para revolucionar o chat das suas lives no YouTube.
+
+Com integração direta à IA Gemini da Google e vozes neurais de alta fidelidade via Microsoft Edge-TTS, o bot narra o chat, responde perguntas complexas com memória de contexto, executa alertas sonoros e automatiza anúncios, tudo de forma síncrona e profissional.
+
+
+📥 Download do Instalador
+Clique no botão abaixo para baixar a versão mais recente pronta para uso:
+![alt text](https://img.shields.io/badge/Download-Instalador_Windows-27ae60?style=for-the-badge&logo=windows)
+
+Nota: Por ser um software de código aberto não assinado digitalmente, o Windows SmartScreen pode exibir um alerta. Clique em "Mais informações" e "Executar assim mesmo" para prosseguir com a instalação.
+
+
+✨ Recursos Principais
+
+🧠 Inteligência Artificial de Ponta
+Motor Gemini 2.0/1.5 Flash: Respostas ultra rápidas e inteligentes.
+Persona Customizável: Defina o comportamento do bot (ex: Gamer, Educativo, Sarcástico).
+Memória de Contexto: A IA lembra das mensagens anteriores para conversas fluídas.
+Cooldown Configurável: Controle a frequência de respostas para evitar spam.
+
+
+🔊 Experiência Sonora Premium
+Narração Sincronizada: O bot lê o chat e a resposta em sequência, sem sobrepor áudios.
+Vozes Neurais: Escolha entre vozes masculinas e femininas com ajuste de velocidade.
+Alertas Personalizados: Gatilhos por palavras-chave que tocam seus arquivos .wav ou .mp3.
+
+
+🕹️ Engajamento da Live
+Sistema de Sorteio: Colete nomes automaticamente via comando e realize sorteios ao vivo com anúncio de voz.
+Anúncios Automáticos (Timers): Programe mensagens para serem ditas a cada X minutos.
+Comandos Rápidos: Respostas fixas para comandos comuns (ex: !discord, !pix) economizando sua cota de IA.
+
+
+🛡️ Segurança e Layout
+Filtro de Segurança: Aba exclusiva para bloquear palavras ofensivas com bronca automática da IA.
+Interface Pro (900px): Layout otimizado para aparecer todas as 7 abas simultaneamente.
+Modo OBS: Janela ajustável feita para encaixar perfeitamente no seu software de transmissão.
+
+
+🛠️ Instalação para Desenvolvedores (Open Source)
+
+Se você deseja rodar o código fonte ou contribuir:
+
+Clone o projeto:
+
+code
+
+Bash
+
+git clone https://github.com/Kymera-coder/TubeVoice-AI.git
+
+Instale as dependências:
+
+code>
+
+Bash>
+
+pip install PyQt6 google-genai pytchat edge-tts pygame-ce
+
+Execute:
+
+code>
+
+Bash>
+
+python main.py
+
+
+⚙️ Configurações Rápidas
+
+Chave API: Pegue sua chave gratuita no Google AI Studio.
+
+ID da Live: Cole o link completo da sua live do YouTube ou apenas o ID de 11 caracteres.
+
+Privacidade: O chat só pode ser lido em lives Públicas ou Não Listadas.
+
+Edição: Na aba "Timers", dê dois cliques em qualquer item da lista para editá-lo.
+
+📄 Licença
+
+Este projeto é Open Source sob a licença MIT. Sinta-se livre para usar, modificar e distribuir, mantendo os créditos originais.
+
+
+🤝 Suporte e Comunidade
+
+Desenvolvedor: KPC Studio
+
+Discord Suporte: Clique para entrar em contato
+
+
+Aba ⚙️: O software possui um botão direto para verificar novas versões no GitHub.
+
+Transforme sua live com o TubeVoice AI Pro. A voz da sua inteligência.
