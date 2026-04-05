@@ -24,6 +24,7 @@ Cooldown Configurável: Controle a frequência de respostas para evitar spam.
 
 
 🔊 Experiência Sonora Premium
+
 Narração Sincronizada: O bot lê o chat e a resposta em sequência, sem sobrepor áudios.
 Vozes Neurais: Escolha entre vozes masculinas e femininas com ajuste de velocidade.
 Alertas Personalizados: Gatilhos por palavras-chave que tocam seus arquivos .wav ou .mp3.
@@ -47,9 +48,9 @@ Se você deseja rodar o código fonte ou contribuir:
 
 Clone o projeto:
 
-code
+code>
 
-Bash
+Bash>
 
 git clone https://github.com/Kymera-coder/TubeVoice-AI.git
 
@@ -79,6 +80,7 @@ ID da Live: Cole o link completo da sua live do YouTube ou apenas o ID de 11 car
 Privacidade: O chat só pode ser lido em lives Públicas ou Não Listadas.
 
 Edição: Na aba "Timers", dê dois cliques em qualquer item da lista para editá-lo.
+
 
 📄 Licença
 
