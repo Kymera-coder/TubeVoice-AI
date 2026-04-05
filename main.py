@@ -22,7 +22,7 @@ class TubeVoiceAI(QMainWindow): # Nome da classe definido corretamente
     def __init__(self):
         super().__init__()
         self.version = "9.4.0"
-        self.repo_url = "https://github.com/seu-usuario/repositorio"
+        self.repo_url = "https://github.com/Kymera-coder/TubeVoice-AI"
         
         self.config_file = "tube_voice_pro_data.json"
         self.sounds_dir = "meus_sons_bot"
