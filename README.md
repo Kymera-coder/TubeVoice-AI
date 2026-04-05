@@ -1,4 +1,4 @@
-🚀 Lançamento: TubeVoice AI  V1.0
+🚀 Lançamento: TubeVoice AI  v9.6.0
 A revolução da interação inteligente para Streamers do YouTube.
 O TubeVoice AI Pro é um assistente de desktop robusto e completo, desenvolvido em Python com interface PyQt6, projetado para transformar o chat da sua live em uma experiência imersiva, inteligente e automatizada.
 Ao contrário de bots comuns, o TubeVoice utiliza o motor da Google Gemini (IA de última geração) e a síntese de voz humana da Microsoft Edge-TTS, permitindo que o bot não apenas responda, mas "fale" e interaja com sua audiência em tempo real com vozes extremamente naturais.
