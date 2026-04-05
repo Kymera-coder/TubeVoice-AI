@@ -1,100 +1,51 @@
-🎙️ TubeVoice AI Pro - v9.6.0
+🎙️ TubeVoice AI Pro - v13.7.0 (The Studio Master Edition)
 
 <img width="929" height="877" alt="Captura de tela 2026-03-30 205419" src="https://github.com/user-attachments/assets/f2fc05fb-7568-4c79-b78b-6ae613571c57" />
 
-TubeVoice AI Pro é um assistente de desktop interativo e inteligente, desenvolvido em Python com PyQt6, projetado para revolucionar o chat das suas lives no YouTube.
 
-Com integração direta à IA Gemini da Google e vozes neurais de alta fidelidade via Microsoft Edge-TTS, o bot narra o chat, responde perguntas complexas com memória de contexto, executa alertas sonoros e automatiza anúncios, tudo de forma síncrona e profissional.
+Bem-vindos à versão 13.7.0 do TubeVoice AI Pro! Esta atualização transforma o bot em um verdadeiro console de estúdio, trazendo estabilidade absoluta na conexão com a IA e ferramentas inéditas de engajamento para a sua live.
 
+🚀 O que há de novo?
 
-📥 Download do Instalador
-Clique no botão abaixo para baixar a versão mais recente pronta para uso:
-https://github.com/Kymera-coder/TubeVoice-AI/releases/download/v9.6.0/VoiceTube.IA.Installer.v9.6.0.exe
+🎚️ Mixer Rack Profissional (Aba Mesa)
+Controles Verticais: Agora a aba "Mesa" possui um Mixer Rack real com sliders de volume individuais para cada alerta configurado.
+LEDs de Pico: Indicadores visuais que acendem em verde sempre que um som é reproduzido ou testado.
+Mute & Solo: Controle total sobre quais alertas devem ser ouvidos pela live.
 
+🏆 Sistema de Fidelidade & Ranking
 
-Nota: Por ser um software de código aberto não assinado digitalmente, o Windows SmartScreen pode exibir um alerta. Clique em "Mais informações" e "Executar assim mesmo" para prosseguir com a instalação.
+Contador de Mensagens: O bot agora monitora e salva quem são os espectadores mais ativos do seu chat.
+Ranking Top 20: Visualize em tempo real quem são os "Vips" da sua comunidade.
+Função Mandar Salve: Um botão exclusivo para enviar um agradecimento por voz automático para os usuários do ranking.
 
+🧠 Inteligência v9.6.0 Stable
 
-✨ Recursos Principais
+Motor Sincronizado: Restauramos a lógica de conexão da versão 9.6.0, garantindo que a IA Gemini 2.0 conecte instantaneamente sem erros de cota.
+Logs Detalhados: O console agora exibe confirmações visuais em verde: "IA TubeVoice conectada com sucesso!" e "Conexão bem sucedida com o YouTube!".
 
-🧠 Inteligência Artificial de Ponta
-Motor Gemini 2.0/1.5 Flash: Respostas ultra rápidas e inteligentes.
-Persona Customizável: Defina o comportamento do bot (ex: Gamer, Educativo, Sarcástico).
-Memória de Contexto: A IA lembra das mensagens anteriores para conversas fluídas.
-Cooldown Configurável: Controle a frequência de respostas para evitar spam.
+🛠️ Melhorias Técnicas e Fixes
 
+UI Expandida (900px): Layout otimizado para que as 8 abas fiquem visíveis simultaneamente sem barras de rolagem.
+Placeholders Educativos: Todas as caixas de texto agora possuem exemplos internos para facilitar a configuração do streamer.
+Fix AttributeError: Resolvido o erro de referência de botões de sorteio e atributos da IA.
+Fix Som Fatal: Proteção contra o erro "Unrecognized audio format" em versões experimentais do Python.
 
-🔊 Experiência Sonora Premium
+📥 Como Instalar?
 
-Narração Sincronizada: O bot lê o chat e a resposta em sequência, sem sobrepor áudios.
-Vozes Neurais: Escolha entre vozes masculinas e femininas com ajuste de velocidade.
-Alertas Personalizados: Gatilhos por palavras-chave que tocam seus arquivos .wav ou .mp3.
+Baixe o instalador: Clique no arquivo TubeVoiceAI_Setup.exe abaixo.
+Configuração: Insira sua Gemini Key (Google AI Studio) e o link da sua live.
+Inicie: Clique em "Iniciar Operação Completa" e veja a mágica acontecer!
+https://github.com/Kymera-coder/TubeVoice-AI/releases/download/v13.7/VoiceTube.IA.v13.7.Instaler.exe
 
+📄 Informações de Licença e Suporte
 
-🕹️ Engajamento da Live
-Sistema de Sorteio: Colete nomes automaticamente via comando e realize sorteios ao vivo com anúncio de voz.
-Anúncios Automáticos (Timers): Programe mensagens para serem ditas a cada X minutos.
-Comandos Rápidos: Respostas fixas para comandos comuns (ex: !discord, !pix) economizando sua cota de IA.
-
-
-🛡️ Segurança e Layout
-Filtro de Segurança: Aba exclusiva para bloquear palavras ofensivas com bronca automática da IA.
-Interface Pro (900px): Layout otimizado para aparecer todas as 7 abas simultaneamente.
-Modo OBS: Janela ajustável feita para encaixar perfeitamente no seu software de transmissão.
-
-
-🛠️ Instalação para Desenvolvedores (Open Source)
-
-Se você deseja rodar o código fonte ou contribuir:
-
-Clone o projeto:
-
-code>
-
-Bash>
-
-git clone https://github.com/Kymera-coder/TubeVoice-AI.git
-
-Instale as dependências:
-
-code>
-
-Bash>
-
-pip install PyQt6 google-genai pytchat edge-tts pygame-ce
-
-Execute:
-
-code>
-
-Bash>
-
-python main.py
-
-
-⚙️ Configurações Rápidas
-
-Chave API: Pegue sua chave gratuita no Google AI Studio.
-
-ID da Live: Cole o link completo da sua live do YouTube ou apenas o ID de 11 caracteres.
-
-Privacidade: O chat só pode ser lido em lives Públicas ou Não Listadas.
-
-Edição: Na aba "Timers", dê dois cliques em qualquer item da lista para editá-lo.
-
-
-📄 Licença
-
-Este projeto é Open Source sob a licença MIT. Sinta-se livre para usar, modificar e distribuir, mantendo os créditos originais.
-
-
-🤝 Suporte e Comunidade
-
+Open Source: Este projeto é distribuído sob a licença MIT.
 Desenvolvedor: KPC Studio
+Discord: https://discord.com/users/1366073392008134656
 
-Discord Suporte: Clique para entrar em contato
+📦 Arquivos da Release (Assets)
 
-
-Aba ⚙️: O software possui um botão direto para verificar novas versões no GitHub.
-
-Transforme sua live com o TubeVoice AI Pro. A voz da sua inteligência.
+TubeVoiceAI_Setup.exe (Instalador Windows)
+main.py (Código Fonte Expandido)
+LICENSE (Licença MIT)
+Transforme sua live com o TubeVoice AI Pro. A voz da sua comunidade! 🚀🤖
