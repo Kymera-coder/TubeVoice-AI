@@ -1,13 +1,6 @@
 🎙️ TubeVoice AI Pro - v9.6.0
 
-![alt text](https://img.shields.io/badge/python-3.12%20%7C%203.14-blue.svg)
-
-![alt text](https://img.shields.io/badge/license-MIT-green.svg)
-
-![alt text](https://img.shields.io/badge/IA-Google%20Gemini-orange.svg)
-
-![alt text](https://img.shields.io/badge/platform-Windows-0078d7.svg)
-
+<img width="929" height="877" alt="Captura de tela 2026-03-30 205419" src="https://github.com/user-attachments/assets/f2fc05fb-7568-4c79-b78b-6ae613571c57" />
 
 TubeVoice AI Pro é um assistente de desktop interativo e inteligente, desenvolvido em Python com PyQt6, projetado para revolucionar o chat das suas lives no YouTube.
 
@@ -16,7 +9,7 @@ Com integração direta à IA Gemini da Google e vozes neurais de alta fidelidad
 
 📥 Download do Instalador
 Clique no botão abaixo para baixar a versão mais recente pronta para uso:
-![alt text](https://img.shields.io/badge/Download-Instalador_Windows-27ae60?style=for-the-badge&logo=windows)
+
 
 Nota: Por ser um software de código aberto não assinado digitalmente, o Windows SmartScreen pode exibir um alerta. Clique em "Mais informações" e "Executar assim mesmo" para prosseguir com a instalação.
 
