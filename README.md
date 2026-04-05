@@ -11,6 +11,7 @@ Com integração direta à IA Gemini da Google e vozes neurais de alta fidelidad
 Clique no botão abaixo para baixar a versão mais recente pronta para uso:
 https://github.com/Kymera-coder/TubeVoice-AI/releases/download/v9.6.0/VoiceTube.IA.Installer.v9.6.0.exe
 
+
 Nota: Por ser um software de código aberto não assinado digitalmente, o Windows SmartScreen pode exibir um alerta. Clique em "Mais informações" e "Executar assim mesmo" para prosseguir com a instalação.
 
 
